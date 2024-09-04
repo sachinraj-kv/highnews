@@ -1,0 +1,28 @@
+.top-spaceing{
+    margin-top: 20px;
+}
+.card-spacing{
+    margin-bottom: 10px;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+}
+.catb{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 30px;
+} 
+.catb:hover{
+    background-color: white;
+    text-decoration: underline;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}  
