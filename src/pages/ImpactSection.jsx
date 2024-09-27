@@ -21,8 +21,6 @@ function ImpactSection() {
     </Card>
             </Col>
 
-
-
             <Col md={6}>
   <Card style={{ border: "none" }}>
    <div className="ratio ratio-16x9">
