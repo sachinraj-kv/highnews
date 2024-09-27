@@ -5,9 +5,7 @@ import './impact.css'
 function ImpactSection() {
   return (
     <div>
-        <div className='marquee_border'>
-        <marquee  behavior="alternate" direction="right"><div style={{display:"flex"}}>  <h2>   Live News </h2> <h2>   Live News </h2> <h2>   Live News </h2> <h2>   Live News </h2> <h2>   Live News </h2> <h2>Live News </h2> <h2>   Live News </h2> <h2>   Live News </h2></div></marquee>
-        </div>
+        
         <h1>Must Read</h1>
     <Container>
         <Row>
@@ -17,8 +15,7 @@ function ImpactSection() {
       <Card.Body>
         <Card.Title>Yudhra trailer: Siddhant Chaturvedi plays a man with anger issues on a mission; Malavika Mohanan his lover. Watch</Card.Title>
         <Card.Text>
-        Yudhra trailer: The trailer for Ravi Udyawar’s Siddhant Chaturvedi, Malavika Mohanan-starrer Yudhra, dropped on Thursday. The film, produced by Ritesh Sidhwani and Farhan Akhtar under Excel Entertainment, sees Siddhant play a man with anger issues who’s sent on a mission. (Also Read: Malavika Mohanan speaks out on the safety of women, says she feels ‘helpless’: It is a patriarchal mindset)
-          
+        Yudhra trailer: The trailer for Ravi Udyawar’s Siddhant Chaturvedi, Malavika Mohanan-starrer Yudhra, dropped on Thursday. The film, produced by Ritesh Sidhwani and Farhan Akhtar under Excel Entertainment, sees Siddhant play a man with anger issues who’s sent on a mission. (Also Read: Malavika Mohanan speaks out on the safety of women, says she feels ‘helpless’: It is a patriarchal mindset)         
         </Card.Text>
       </Card.Body>
     </Card>
@@ -29,7 +26,7 @@ function ImpactSection() {
             <Col md={6}>
   <Card style={{ border: "none" }}>
    <div className="ratio ratio-16x9">
-    <iframe src="https://www.youtube.com/embed/zGoMh1fy8XE?si=9dFzd1xyXAc-YnRq" title='news' allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/zGoMh1fy8XE?si=9dFzd1xyXAc-YnRq" title='news' allowFullScreen></iframe>
     
    </div>
    <h4>Dozens of people CNN met in Feni – which is only a few miles from the India border – accused New Delhi of releasing water from the Dumbur dam in neighboring Tripura state with no warning.

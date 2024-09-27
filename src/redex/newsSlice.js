@@ -27,7 +27,6 @@ const newsSlice = createSlice({
         newsEdit:(state , action)=>{
             state.news = action.payload
         }
-
     }
 });
 

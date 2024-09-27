@@ -11,6 +11,7 @@ import { useDispatch } from 'react-redux';
 import EditandDelite from './pages/EditandDelite';
 import EditForm from './pages/EditForm';
 import ViewEdit from './pages/ViewEdit';
+import Intropage from './pages/Intropage';
 
 function App() {
   const dispatch = useDispatch()
@@ -30,6 +31,7 @@ function App() {
    <Router>
     <Navigationbar/>
     <Routes>
+      <Route path='/'  element={<Intropage/>}/>
       <Route path='/news' element={<Home/>}/>
       <Route path='/news/:id' element={<Detalednews/>}/>
       <Route path='/addnews' element={<Todosform/>}/>
